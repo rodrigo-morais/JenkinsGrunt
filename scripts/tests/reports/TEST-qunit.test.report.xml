@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite name="qunit.test.report" errors="0" failures="0" tests="13">
+		<testcase classname="qunit.test.report" name="Calculator: Sum two numbers equals" assertions="1">
+		</testcase>
+		<testcase classname="qunit.test.report" name="Calculator: Sum two differents numbers where first number is bigger than second" assertions="1">
+		</testcase>
+		<testcase classname="qunit.test.report" name="Calculator: Sum two differents numbers where first number is smaller than second" assertions="1">
+		</testcase>
+		<testcase classname="qunit.test.report" name="Calculator: Divide two differents numbers where the divisor is different than zero" assertions="1">
+		</testcase>
+		<testcase classname="qunit.test.report" name="Calculator: Divide two equals numbers where the divisor is different than zero" assertions="1">
+		</testcase>
+		<testcase classname="qunit.test.report" name="Calculator: Divide two numbers where the divisor is equal than zero" assertions="1">
+		</testcase>
+		<testcase classname="qunit.test.report" name="Calculator: Multiply two equals numbers" assertions="1">
+		</testcase>
+		<testcase classname="qunit.test.report" name="Calculator: Multiply two differents numbers" assertions="1">
+		</testcase>
+		<testcase classname="qunit.test.report" name="Calculator: Multiply two differents numbers where one is zero" assertions="1">
+		</testcase>
+		<testcase classname="qunit.test.report" name="Calculator: Subtract two equals numbers" assertions="1">
+		</testcase>
+		<testcase classname="qunit.test.report" name="Calculator: Subtract two differents numbers" assertions="1">
+		</testcase>
+		<testcase classname="qunit.test.report" name="Calculator: Subtract two differents numbers where one is zero" assertions="1">
+		</testcase>
+		<testcase classname="qunit.test.report" name="Calculator: Subtract two differents numbers where second number is bigger than first" assertions="1">
+		</testcase>
+	</testsuite>
+</testsuites>
