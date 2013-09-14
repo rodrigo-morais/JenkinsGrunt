@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage branch-rate="1.0" branches-covered="2" branches-valid="2" complexity="0" line-rate="1.0" lines-covered="11" lines-valid="11" timestamp="1379201223562" version="1.0.4">
+  <sources>
+    <source>C:/Dados/Estudo/POCs/Jenkins/JenkinsGrunt/coverage/phantom</source>
+  </sources>
+  <packages>
+    <package branch-rate="1.0" complexity="0" line-rate="1.0" name="/scripts">
+      <classes>
+        <class branch-rate="1.0" complexity="0" filename="scripts/Calculator.js" line-rate="1.0" name="/scripts/Calculator.js">
+          <methods/>
+          <lines>
+            <line branch="false" hits="1" number="1"/>
+            <line branch="false" hits="3" number="3"/>
+            <line branch="false" hits="3" number="4"/>
+            <line branch="false" hits="3" number="8"/>
+            <line branch="true" condition-coverage="100% (2/2)" hits="1" number="9">
+              <conditions>
+                <condition coverage="100%" number="1" type="jump"/>
+              </conditions>
+            </line>
+            <line branch="false" hits="1" number="10"/>
+            <line branch="false" hits="2" number="12"/>
+            <line branch="false" hits="3" number="16"/>
+            <line branch="false" hits="3" number="17"/>
+            <line branch="false" hits="4" number="21"/>
+            <line branch="false" hits="4" number="22"/>
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

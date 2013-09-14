@@ -1,4 +1,4 @@
-﻿/// <reference path="../Calculator.js" />
+/// <reference path="../Calculator.js" />
 
 module("Calculator")
 
