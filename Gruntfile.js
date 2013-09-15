@@ -11,11 +11,19 @@ module.exports = function (grunt) {
         qunit: {
             all: ['index_grunt.htm']
         },
+        jshint: {
+            options: {
+              reporter: 'checkstyle',
+              reporterOutput: 'scripts/tests/reports/jshint.xml',
+            },
+            all: ['scripts/Calculator.js', 'scripts/tests/testCalculator.js']
+        },
     });
 
-	grunt.registerTask('test', ['qunit_junit', 'qunit']);
+	grunt.registerTask('test', ['qunit_junit', 'qunit', 'jshint']);
 
     // carrega plugins
     grunt.loadNpmTasks('grunt-contrib-qunit');
     grunt.loadNpmTasks('grunt-qunit-junit');
+    grunt.loadNpmTasks('grunt-contrib-jshint');
 }; 
