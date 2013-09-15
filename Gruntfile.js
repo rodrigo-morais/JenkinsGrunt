@@ -13,10 +13,10 @@ module.exports = function (grunt) {
         },
         jshint: {
             options: {
-              reporter: 'checkstyle',
-              reporterOutput: 'scripts/tests/reports/jshint.xml',
+                reporter: 'checkstyle',
+                reporterOutput: 'scripts/tests/reports/jshint.xml',
             },
-            all: ['scripts/Calculator.js', 'scripts/tests/testCalculator.js']
+            all: ['scripts/Calculator.js']
         },
     });
 

@@ -1,6 +1,6 @@
 /// <reference path="../Calculator.js" />
 
-module("Calculator")
+module("Calculator");
 
 test("Sum two numbers equals", function () {
 
